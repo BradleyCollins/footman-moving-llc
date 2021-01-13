@@ -26,7 +26,7 @@ header > * {
   max-width: 35%;
   min-width: 30ch;
   z-index: 1;
-  color: var(--main-white-color);
+  color: $main-white-color;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
