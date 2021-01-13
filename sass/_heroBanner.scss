@@ -1,0 +1,32 @@
+/* Hero Banner */
+
+header {
+  display: grid;
+  grid-template-areas: "hero";
+  height: 65vh;
+  max-height: 600px;
+  align-items: center;
+  place-items: left;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 180ms width ease-in;
+    justify-self: end;
+  }
+}
+
+header > * {
+  grid-area: hero;
+}
+
+.hero-content {
+  margin: 1rem 0 1rem 5%;
+  max-width: 35%;
+  min-width: 30ch;
+  z-index: 1;
+  color: var(--main-white-color);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
