@@ -28,5 +28,24 @@ header > * {
   z-index: 1;
   color: $main-white-color;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.75rem;
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  a {
+    border-radius: 5px;
+    height: 25px;
+    width: 60px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: $main-red-color;
+    border: 1px solid $main-red-color;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background-color: $main-white-color;
+  }
 }

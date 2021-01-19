@@ -3,6 +3,7 @@
   width: 100%;
   background: $main-background-color;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  height: 50px;
 }
 
 nav {
@@ -54,20 +55,20 @@ nav {
 }
 
 /* Call button on right side of menu */
-.nav-cta {
+button {
   justify-self: end;
   align-self: center;
   margin-right: 15px;
   border-radius: 5px;
-  height: 30px;
-  width: 100px;
+  height: 25px;
+  width: 60px;
+  font-size: 0.6rem;
   text-transform: uppercase;
   color: $main-red-color;
-  /* background-color: var(--main-biege-color); */
   border: 1px solid $main-red-color;
   @include mq(1025px) {
     margin: 10px 20px 10px 0px;
-    justify-self: center;
+    justify-self: left;
   }
 }
 
