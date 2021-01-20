@@ -52,8 +52,7 @@
   }
 
   p {
-    font-size: 0.8rem;
-    color: $main-black-color;
+    font-size: 1rem;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -63,6 +62,9 @@
     -ms-flex: 1;
     flex: 1;
     margin-bottom: 20px;
+    @include mq(1025px) {
+      font-size: 0.8rem;
+    }
   }
 }
 
@@ -70,7 +72,6 @@
   position: absolute;
   top: 110px;
   left: 0;
-  color: $main-white-color;
   padding: 10px 15px;
   font-size: 14px;
   font-weight: bold;
@@ -79,12 +80,15 @@
 
 .category__01 {
   background-color: #50c6db;
+  color: $main-white-color;
 }
 
 .category__02 {
   background-color: #5d5e5e;
+  color: $main-white-color;
 }
 
 .category__03 {
   background-color: #51bb7b;
+  color: $main-white-color;
 }
