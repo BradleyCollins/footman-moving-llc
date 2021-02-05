@@ -3,18 +3,10 @@
 header {
   display: grid;
   grid-template-areas: "hero";
-  height: 65vh;
-  max-height: 600px;
+  height: 100vh;
   align-items: center;
   place-items: left;
-
-  img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    transition: 180ms width ease-in;
-    justify-self: end;
-  }
+  background-image: url(/img/banner.jpg);
 }
 
 header > * {
