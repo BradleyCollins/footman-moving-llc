@@ -7,6 +7,9 @@ header {
   align-items: center;
   place-items: left;
   background-image: url(/img/banner.jpg);
+  @include mq(1025px) {
+    height: 50vh;
+  }
 }
 
 header > * {
@@ -39,5 +42,15 @@ header > * {
     margin-left: 5px;
     margin-bottom: 10px;
     background-color: $main-white-color;
+  }
+
+  @include mq(1025px) {
+    min-width: 25ch;
+    h1 {
+      font-size: 1.5rem;
+    }
+    P {
+      font-size: 1rem;
+    }
   }
 }
